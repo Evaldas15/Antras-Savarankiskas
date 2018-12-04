@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Skaiciuotuvas</title>
+    <script src="js/jav.js"></script>
+</head>
+<body>
+<div class="calculator">
+
+    <input type="text" class="pirmas" id="values" value="0"/>
+
+    <div class="zenklas">
+
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="7">7</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="8">8</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="9">9</button>
+
+        <button type="button" onclick="clickas(this.value);" class="antras" value="/">/</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="4">4</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="5">5</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="6">6</button>
+
+
+        <button type="button" onclick="clickas('*');" class="antras" value="*">X</button>
+
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="1">1</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="2">2</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis" value="3">3</button>
+        <button type="button" onclick="clickas(this.value);" class="antras" value="-">-</button>
+        <button type="button" onclick="clickas(this.value);" class="nulis2" value="0">0</button>
+
+        <button type="button" onclick="clickas(this.value);" class="nulis3" value=".">.</button>
+        <button type="button" onclick="suma(document.getElementById('values').value);" class="lygu antras" value="=">=</button>
+        <button type="button" onclick="clickas(this.value);" class="prideti antras" value="+">+</button>
+
+
+    </div>
+</div>
+</body>
+</html>
